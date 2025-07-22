@@ -1,9 +1,16 @@
 # DR-Detection
 
-Diabetic Retinopahty, a condition of eye in which lesions are formed due to diabetes that can cause complete vision loss in severe cases. Hence CAD (Computer Aided Diagnosis) models are required to ease the diagonsotic process making it reliable and error free, a task most practictioner tries for.
+Diabetic Retinopathy Classification
+Diabetic Retinopathy (DR) is an eye condition caused by complications of diabetes, which can lead to the formation of retinal lesions and, in severe cases, complete vision loss. To make the diagnostic process more reliable and less prone to human error, Computer-Aided Diagnosis (CAD) systems play a crucial role in assisting medical practitioners.
 
-Here I've used various pre-trained models like VGG16, VGG19, Resnet50 and Mobile NetV2 along with a basic CNN for the sole pupose of comparison
+In this project, I have implemented and compared various deep learning models for DR classification, including:
 
-The highest accuracy being with MobileNetV2. 
+A basic Convolutional Neural Network (CNN)
 
-The dataset that I have choosen is IDRiD, Indian Diabetic Retinopahty Dataset published in 2015. 
+Pre-trained models: VGG16, VGG19, ResNet50, and MobileNetV2
+
+The highest accuracy was achieved using MobileNetV2.
+
+For this work, I used the IDRiD (Indian Diabetic Retinopathy Image Dataset) published in 2015, which contains high-resolution retinal fundus images labeled for different DR severity levels. 
+
+Link: https://ieee-dataport.org/open-access/indian-diabetic-retinopathy-image-dataset-idrid 
